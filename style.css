@@ -1,0 +1,276 @@
+@import url('https://fonts.cdnfonts.com/css/menlo');
+
+body {
+  font-family: 'Menlo', sans-serif;
+  font-size: 0.85em;
+  line-height: 1.5em;
+  background: #ffffff;
+  font-family: Andale Mono;
+}
+
+
+iframe {
+  display: block;
+  width: 50%;
+  margin-left: auto;
+  margin-right: 20px;
+}
+
+img {
+  display: block;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+p {
+  margin-top: 20px;
+  margin-bottom: 0px;
+}
+
+h3 {
+  font-size: 1.25em;
+}
+
+h2 {
+  font-size: 2.5em;
+  line-height: .5em;
+  text-align: center;
+}
+
+h1 {
+  font-size: 3em;
+  line-height: 1em;
+  text-align: left;
+}
+
+
+.log {
+  max-width: 60%;
+  margin: 0 auto;
+  padding: 30px;
+  border: 0px solid black;
+  margin-bottom: 50px;
+  background: #ffffff;
+}
+
+.header {
+  max-width: 80%;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.title {
+  margin: 0 auto;
+  border: 3px dashed white;
+  padding: 20px;
+  color: black;
+  margin-bottom: 20px;
+}
+
+.menu {
+  margin: 0 auto;
+  padding: 20px;
+  margin-bottom: 20px;
+  color: #000000;
+  font-size: 1.2em;
+  text-align: center;
+  text-shadow: 2px 2px #DEDEDE;
+}
+
+a:link {
+  color: black;
+  text-decoration: none;
+  text-shadow: 2px 2px #DEDEDE;
+}
+
+a:hover {
+  color: #808080;
+  text-shadow: 2px 2px #DEDEDE;
+}
+
+a:visited {
+  color: black;
+  text-shadow: 2px 2px #DEDEDE;
+}
+
+a:visited:hover {
+  color: #808080;
+  text-shadow: 2px 2px #DEDEDE;
+}
+
+* {
+   box-sizing: border-box;
+}
+h1 {
+   text-align: center;
+}
+.row {
+   display: flex;
+   flex-wrap: wrap;
+   padding: 0 50px;
+}
+.column {
+   flex: 33%;
+   padding: 0 0px;
+}
+.column img {
+   margin-top: 0px;
+   height: 430px;
+   width: 100%;
+   padding: 0px;
+}
+@media screen and (max-width: 800px) {
+   .column {
+      flex: 50%;
+   }
+  
+    .row {
+   display: flex;
+   flex-wrap: wrap;
+   padding: 0 50px;
+  }
+}
+@media screen and (max-width: 600px) {
+   .column {
+      flex: 100%;
+   }
+  
+  .row {
+   display: flex;
+   flex-wrap: wrap;
+   padding: 0 50px;
+    z-index: 3;
+  }
+  
+}
+
+.acolumn {
+   flex: 50%;
+   padding: 0 0px;
+}
+.acolumn img {
+   margin-top: 0px;
+   height: 200px;
+   width: 200px;
+   padding: 0px;
+  
+}
+
+
+.acolumn iframe {
+   height: 100%;
+   width: 300px;
+  
+}
+
+.acolumn p {
+   margin-top: 0px;
+   height: 100%;
+  width: 400px;
+  color: #000000;
+   padding: 0px;
+  margin-bottom: 0px;
+}
+
+.mcolumn {
+   flex: 50%;
+   padding: 0 0px;
+}
+.mcolumn img {
+   margin-top: 0px;
+   height: 300px;
+   width: 340px;
+   padding-right: 80px;
+  padding-bottom: 40px;
+   float: right;
+  
+}
+
+
+.mcolumn iframe {
+   height: 100%;
+  width: 400px;
+  
+}
+
+.mcolumn p {
+   margin-top: 0px;
+   height: 100%;
+  width: 400px;
+  color: #000000;
+   padding: 0px;
+  margin-bottom: 0px;
+}
+
+@media screen and (max-width: 600px) {
+   .acolumn {
+      flex: 100%;
+   }
+  
+}
+
+.wcolumn {
+   flex: 50%;
+   padding: 0 0px;
+}
+
+.wcolumn img {
+   margin-top: 0px;
+   height: 290px;
+   width: 200px;
+   padding: 0px;
+  
+}
+
+
+.wcolumn iframe {
+   height: 100%;
+  width: 400px;
+  
+}
+
+.wcolumn p {
+   margin-top: 0px;
+   height: 100%;
+  width: 400px;
+  color: #000000;
+   padding: 0px;
+  margin-bottom: 0px;
+}
+
+@media screen and (max-width: 600px) {
+   .wcolumn {
+      flex: 100%;
+   }
+  
+}
+
+.mecolumn {
+   flex: 50%;
+   padding: 0 0px;
+}
+.mecolumn img {
+   margin-top: 0px;
+   height: 225px;
+   width: 250px;
+   padding: 0px;
+  
+}
+
+
+.mecolumn iframe {
+  height: 100%;
+  width: 400px;
+  
+}
+
+.mecolumn p {
+   margin-top: 0px;
+   height: 100%;
+   width: 400px;
+   color: #000000;
+   padding: 0px;
+  margin-bottom: 0px;
+}
