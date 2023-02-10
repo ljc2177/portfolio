@@ -204,6 +204,35 @@ h1 {
   margin-bottom: 0px;
 }
 
+.cvcolumn {
+   flex: 30%;
+   padding: 0 0px;
+}
+.cvcolumn img {
+   margin-top: 0px;
+   height: 300px;
+   width: 340px;
+   padding-right: 80px;
+  padding-bottom: 40px;
+   float: center;
+}
+
+
+.cvcolumn iframe {
+   height: 100%;
+  width: 400px;
+  
+}
+
+.cvcolumn p {
+   margin-top: 0px;
+   height: 100%;
+  width: 370px;
+  color: #000000;
+   padding: 0px;
+  margin-bottom: 0px;
+}
+
 @media screen and (max-width: 600px) {
    .acolumn {
       flex: 100%;
